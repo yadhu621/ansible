@@ -1,11 +1,8 @@
 ---
 - hosts: all
-  name: "Running hostname command ..."
   tasks:
-  - command: hostname
-
-- hosts: all
-  name: "Touching a file ..."
-  tasks:
-  - command: 'touch /home/90ml'
+  - name: 'Get server hostname'
+    command: hostname
+  - name: 'Touch a file'
+    command: 'touch /home/100ml'
 
