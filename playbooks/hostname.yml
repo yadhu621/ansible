@@ -1,4 +1,5 @@
 ---
 - hosts: all
+  name: "Running hostname command ..."
   tasks:
   - command: hostname
