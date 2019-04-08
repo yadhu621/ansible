@@ -3,3 +3,9 @@
   name: "Running hostname command ..."
   tasks:
   - command: hostname
+
+- hosts: all
+  name: "Touching a file ..."
+  tasks:
+  - command: 'touch /home/ubuntu/90ml'
+
