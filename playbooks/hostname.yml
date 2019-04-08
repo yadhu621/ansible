@@ -7,5 +7,5 @@
 - hosts: all
   name: "Touching a file ..."
   tasks:
-  - command: 'touch /home/ubuntu/90ml'
+  - command: 'touch /home/90ml'
 
